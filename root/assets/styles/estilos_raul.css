@@ -1,9 +1,112 @@
-h1{color: cyan;}
+/*  Clases generales */
 
-article h3{color: blueviolet;}
+body 
 
 body{background-color: black;}
 
 body{color: rgb(255, 255, 255);}
 
+article
+
+article h3{color: blueviolet;}
+
 article header hgroup h2{color: rgb(31, 31, 231);}
+
+article {
+    background-color: rgb(44,43,43);
+    padding: 1.5rem;
+    border-bottom: 1px solid #ffffff;
+}
+
+#titulo_del_blog {
+   
+}
+
+/* Terminan clases generales  */
+
+
+/* barra de navegación */
+
+.resaltado {
+
+}
+
+h1{color: cyan;}
+
+nav>ul>li 
+
+nav>ul>li{color: yellow;}
+
+nav>ul>li{
+    
+    list-style: none;
+}
+
+nav>ul>li>a 
+
+a{
+    text-decoration: none;
+}
+
+/* fin barra de navegación */
+
+/* footer del blog */
+#footer_blog {
+
+}
+
+#footer_blog{
+
+    margin: 2rem;
+}
+
+/* fin del footer del blog */
+
+/* ilustraciones */
+
+.ilustracion {
+
+}
+
+.ilustracion {
+
+    border: 4px solid #ffffff;
+
+    display: inline-block;
+ }
+
+
+
+
+.ilustracion figcaption 
+ 
+
+
+.ilustracion figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+
+
+/* fin ilustraciones */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
