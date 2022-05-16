@@ -1,12 +1,9 @@
 /*  Clases generales */
 
-body 
-
 body{background-color: black;}
 
 body{color: rgb(255, 255, 255);}
 
-article
 
 article h3{color: blueviolet;}
 
@@ -27,9 +24,6 @@ article {
 
 /* barra de navegación */
 
-.resaltado {
-
-}
 
 h1{color: cyan;}
 
@@ -47,9 +41,6 @@ a{
 /* fin barra de navegación */
 
 /* footer del blog */
-#footer_blog {
-
-}
 
 #footer_blog{
 
@@ -62,20 +53,11 @@ a{
 
 .ilustracion {
 
-}
-
-.ilustracion {
-
     border: 4px solid #ffffff;
 
     display: inline-block;
  }
 
-
-
-
-.ilustracion figcaption 
- 
 
 
 .ilustracion figcaption {
@@ -87,7 +69,43 @@ a{
 
 /* fin ilustraciones */
 
+/* grid */
+section {
+    
+    
+    display: grid;
+    
+    grid-template-columns: repeat(12, 1fr);
+   
+    grid-auto-rows: auto;
+    
+    gap: 3rem;
+}
 
+section>header{
+
+grid-column: span 12;
+
+}
+
+section>main{
+
+grid-column: span 8;
+
+}
+
+section>aside{
+
+grid-column: span 4;
+
+}
+
+section>footer{
+
+grid-column: span 12;
+
+}
+/* Termina grid */
 
 
 
