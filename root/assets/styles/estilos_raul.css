@@ -36,6 +36,7 @@ nav>ul>li{
 
 a{
     text-decoration: none;
+    color: #fff;
 }
 
 /* fin barra de navegación */
@@ -105,7 +106,41 @@ section>footer{
 grid-column: span 12;
 
 }
+
 /* Termina grid */
+
+
+section>nav{
+
+    font-size: 1.3rem;
+    
+    }
+    
+
+nav>ul>li>a:hover{
+
+    text-decoration: underline;
+    color: greenyellow;
+
+}
+
+nav>ul{
+
+display: flex;
+
+align-items: center;
+
+justify-content: space-around;
+
+border-bottom: 1px solid #fff;
+
+padding-bottom: 0.5rem;
+
+}
+
+
+
+
 
 
 
