@@ -17,6 +17,7 @@ article {
 
 #titulo_del_blog {
    
+
 }
 
 /* Terminan clases generales  */
@@ -60,15 +61,19 @@ a{
 
 /* fin barra de navegación */
 
-/* footer del blog */
-
 #footer_blog{
-
     margin: 2rem;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4 0 4 0;
+    font-size: 1.3rem;
+    }
 
-/* fin del footer del blog */
-
+    #footer_blog div:nth-child(2){
+          font-size: 0.9rem;
+    }    
+        
 /* ilustraciones */
 
 .ilustracion {
