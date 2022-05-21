@@ -9,6 +9,23 @@ article h3{color: blueviolet;}
 
 article header hgroup h2{color: rgb(31, 31, 231);}
 
+aside div img {
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+aside div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    gap: 1rem;
+    padding: 0.6rem;
+    border-bottom: 1px dashed #fff;
+}
+
 article {
     background-color: rgb(44,43,43);
     padding: 1.5rem;
@@ -16,8 +33,9 @@ article {
 }
 
 #titulo_del_blog {
-   
-
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
 }
 
 /* Terminan clases generales  */
@@ -27,6 +45,19 @@ article {
 
 
 h1{color: cyan;}
+
+section>aside>h2{
+
+text-align: center;
+font-size: 1.3rem;
+
+}
+
+
+aside>div:nth-of-type(even) {
+    background-color: rgb(44, 43, 43);
+}
+
 
 article>header>hgroup{
     display: flex;
@@ -58,6 +89,8 @@ a{
     text-decoration: none;
     color: #fff;
 }
+
+
 
 /* fin barra de navegación */
 
