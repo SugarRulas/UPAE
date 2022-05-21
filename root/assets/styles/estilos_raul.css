@@ -26,6 +26,11 @@ aside div {
     border-bottom: 1px dashed #fff;
 }
 
+.resaltado {
+    color: yellow
+}
+
+
 article {
     background-color: rgb(44,43,43);
     padding: 1.5rem;
