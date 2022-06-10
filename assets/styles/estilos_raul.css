@@ -15,16 +15,6 @@ aside div img {
     border-radius: 50%;
 }
 
-aside div {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 1rem;
-    padding: 0.6rem;
-    border-bottom: 1px dashed #fff;
-}
-
-
 
 .resaltado {
     color: yellow
@@ -218,13 +208,6 @@ padding-bottom: 0.5rem;}
     }
 }
 
-@media (min-width: 0px) and (max-width:1024px) {
-    #footer_blog {
-        display: flex;
-        flex-direction: column;
-    }
-}
-
 @media (min-width: 1024.1px) {
 
     section>main {
@@ -239,6 +222,21 @@ padding-bottom: 0.5rem;}
     section>aside {
 
         grid-column: span 4;
+    }
+}
+
+aside div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 0.6rem;
+    border-bottom: 1px dashed #fff;
+}
+
+@media (min-width: 1024.1px) and (max-width: 1324.1px) {
+    aside div {
+        flex-direction: column;
     }
 }
     
