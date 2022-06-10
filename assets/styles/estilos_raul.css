@@ -24,15 +24,7 @@ aside div {
     border-bottom: 1px dashed #fff;
 }
 
-/* si la pantalla mide mínimo 1024.1 px y máximo 1324.1 entonces... */
-@media (min-width: 1024.1px) and (max-width: 1324.1px) {
-    aside div {
-        /* despliega los elementos de microblogging uno encima del otr */
-        flex-direction: column;
-    }
-}
 
-/* end media */
 
 .resaltado {
     color: yellow
@@ -209,9 +201,16 @@ border-bottom: 1px solid #fff;
 padding-bottom: 0.5rem;}
 
 
+@media (min-width: 1024.1px) and (max-width:1324.1px) {
+    aside div {
+        flex-direction: column;
+    }
+}
+
+
 
 @media (min-width: 1100px) {
-    nav ul {
+    nav>ul {
         display: flex;
         align-items: center;
         justify-content: space-around;
@@ -219,17 +218,26 @@ padding-bottom: 0.5rem;}
     }
 }
 
-@media (min-width: 1024.1px){
+@media (min-width: 0px) and (max-width:1024px) {
     #footer_blog {
-    margin: 2rem;
-    padding: 4rem 0 4rem 0;
-    size: 1.3rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}}
+        display: flex;
+        flex-direction: column;
+    }
+}
 
-  nav {
+@media (min-width: 1024.1px) {
+    section>main {
+        grid-column: span 8;
+    }
+}
+
+@media (min-width: 1024.1px) {
+    section>aside {
+        grid-column: span 4;
+    }
+}
+ 
+nav {
         font-size: 1.3rem;
         position: fixed;
         width:100%;
