@@ -226,17 +226,25 @@ padding-bottom: 0.5rem;}
 }
 
 @media (min-width: 1024.1px) {
+
     section>main {
+
         grid-column: span 8;
     }
 }
+    
+
 
 @media (min-width: 1024.1px) {
     section>aside {
+
         grid-column: span 4;
     }
 }
- 
+    
+
+
+
 nav {
         font-size: 1.3rem;
         position: fixed;
